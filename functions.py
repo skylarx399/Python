@@ -26,3 +26,19 @@ greetings(greet='Hi',name='skylarx')
 
 #positional arguments
 greetings('Skylarx','hello')
+
+def weather_to_emoji(weather):
+
+  if weather == 'rain':
+    print('☔')
+
+  elif weather == 'cloudy':
+    print('☁')
+
+  elif weather == 'thunderstorm':
+    print('🌩')
+
+  else:
+    print('😎')
+
+#weather_to_emoji('rain')
