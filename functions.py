@@ -42,3 +42,15 @@ def weather_to_emoji(weather):
     print('😎')
 
 #weather_to_emoji('rain')
+
+def CalculateFoodTotal(Food, tip_percentage):
+  tip = Food * (tip_percentage / 100)
+  total = Food + tip
+  print(f'Food amount $: {Food}' )
+  print(f'💲 Tip amount $: {tip}' )
+  print('\n')
+  print(f'🤓 Total $: {total}' )
+  return total
+
+ #print(CalculateFoodTotal(100, 10))
+CalculateFoodTotal(Food=100, tip_percentage=20)
