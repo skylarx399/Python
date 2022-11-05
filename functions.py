@@ -54,3 +54,11 @@ def CalculateFoodTotal(Food, tip_percentage):
 
  #print(CalculateFoodTotal(100, 10))
 CalculateFoodTotal(Food=100, tip_percentage=20)
+
+def bigger_guy(a, b):
+  print('banana')
+  print('apple')
+bigger_guy(1, 2)
+ #pass
+
+import weather
